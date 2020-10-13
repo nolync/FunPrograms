@@ -1,0 +1,15 @@
+public class Beliefs {
+	boolean larryDated;
+	boolean larryStillTogether;
+	boolean stuntsReal;
+	boolean babyGate;
+	boolean haveCheated;
+
+	public Beliefs(boolean dated, boolean stillTogether, boolean relationships, boolean baby, boolean cheated) {
+		this.larryDated = dated;
+		this.larryStillTogether = stillTogether;
+		this.stuntsReal = relationships;
+		this.babyGate = baby;
+		this.haveCheated = cheated;
+	}
+}
