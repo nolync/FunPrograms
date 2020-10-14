@@ -1,0 +1,243 @@
+import java.util.Scanner;
+public class Game {
+	private static int correctAnswers = 0;
+	public static String question(int num) {
+		if(num == 1) {
+			return "Zayn and Liam started dating in 2010. True or false?";
+		}
+		else if(num == 2) {
+			return "Zayn and Liam's microphone colors were red and yellow. True or false?";
+		}
+		else if(num == 3) {
+			return "Zayn and Liam broke up for good in 2015. True or false?";
+		}
+		else if(num == 4) {
+			return "Zayn called Liam his teddy bear. True or false?";
+		}
+		else if(num == 5) {
+			return "Zayn didn't fall for Liam until after he left the band. True or false?";
+		}
+		else if(num == 6) {
+			return "Zayn and Liam have Cartier Love Bracelets. True or false?";
+		}
+		else if (num == 7) {
+			return "Liam cheated on Zayn with Cheryl. True or false?";
+		}
+		else if(num == 8) {
+			return "Neither Zayn or Liam are dads. True or false?";
+		}
+		else if(num == 9) {
+			return "Zayn broke up with Liam and started dating Gigi. True or false?";
+		}
+		else if(num == 10) {
+			return "Zayn gave Liam a red flower in the middle of a concert once. True or false?";
+		}
+		else if(num == 11) {
+			return "There is no proof of Zayn and Liam having ever kissed. True or false?";
+		}
+		else if(num == 12) {
+			return "RBB and SBB also connected to Ziam? True or false?";
+		}
+		else if(num == 13) {
+			return "Zayn and Liam have had no contact with each other in years. True or false?";
+		}
+		else if(num == 14) {
+			return "Karen Payne said that Zayn was her favorite member of One Direction. True or false?";
+		}
+		else if(num == 15) {
+			return "Liam was overjoyed when Zayn got engaged. True or false?";
+		}
+		else if(num == 16) {
+			return "Zayn got a necklace of a fishhook after his fishing 'date' with Liam. True or false?";
+		}
+		else if(num == 17) {
+			return "We have no idea when Zayn and Liam started officially dating. True or false?";
+		}
+		else if(num == 18) {
+			return "Liam did three separate livestreams where he talked about Zayn, interacted with Zayn fans, and even listend to Zayn's new song. True or false?";
+		}
+		else if(num == 19) {
+			return "We think Harry was the one who helped Zayn and Liam's relationship get off of the ground. True or false?";
+		}
+		else if(num == 20) {
+			return "Zayn has described Liam as brave. True or false?";
+		}
+		else if(num == 21) {
+			return "Zayn and Liam are not closeted in any way. True or false?";
+		}
+		else if(num == 22) {
+			return "Liam has helped Louis write on some of One Direction's iconic gay anthems. True or false?";
+		}
+		else if(num == 23) {
+			return "Zayn and Liam are not dating and have never dated. True or false?";
+		}
+		else if(num == 24) {
+			return "25 is an important number to Zayn and Liam. True or false?";
+		}
+		else if(num == 25) {
+			return "Zayn once said 'and we- and I do have a cat, yeah.' True or false?";
+		}
+		else if(num == 26) {
+			return "Zayn and Liam danced together during their segment during 1D Day. True or false?";
+		}
+		else if(num == 27) {
+			return "More Than This is the biggest Ziam song out of all of One Direction (the band's) songs. True or false?";
+		}
+		else if(num == 28) {
+			return "Liam cried to You & I multiple times, both before and after Zayn left. True or false?";
+		}
+		else if(num == 29) {
+			return "Zayn and Liam use sign language to tell each other that they love each other. True or false?";
+		}
+		else if(num == 30) {
+			return "Zayn and Liam have sang songs right to each other before. True or false?";
+		}
+		else if(num == 31) {
+			return "Liam got distracted and forgot to start singing his part of Little Things during 1D Day because he was looking at Zayn. True or false?";
+		}
+		else if(num == 32) {
+			return "Zayn was accurately list Liam's favorite songs to dance to in chronological order. True or false?";
+		}
+		else if(num == 33) {
+			return "Zayn was invited to Liam's birthday party in 2012. True or false.";
+		}
+		else if(num == 34) {
+			return "Zayn bought Liam a spoon (knowing about his odd phobia/whatever you call it) and Liam gushed about it to an interviewer. True or false?";
+		}
+		else if(num == 35) {
+			return "A quote from Liam to Zayn is 'you do talk some shit in interviews'. True or false?";
+		}
+		else if(num == 36) {
+			return "Zayn is known for tweeting about an unrequited love in 2011 and 2012. True or false?";
+		}
+		else if(num == 37) {
+			return "Zayn was in a relationship when Liam developed feelings for him. True or false?";
+		}
+		else if(num == 38) {
+			return "Zayn and Liam have matching rings that look like eyes. True or false?";
+		}
+		else if(num == 39) {
+			return "The fans have picked up on a pattern where they can't go more than two weeks without seeing each other. True or false?";
+		}
+		else if(num == 40) {
+			return "Zayn has a red wolf tattoo that we believe is supposed to represent Liam. True or false?";
+		}
+		else if(num == 41) {
+			return "Liam got the lyric 'not even the gods above' tattooed on his arm. True or false?";
+		}
+		else if(num == 42) {
+			return "The 'Perrie' tattoo that Zayn got, had a birthmark on their neck on the opposite side of Liam's. True or false?";
+		}
+		else if(num == 43) {
+			return "We know the meaning behind Zayn's 'ZAP' tattoo. True or false?";
+		}
+		else if(num == 44) {
+			return "Liam has said that he and Zayn had written a song together called 'Soul Provider'. True or false?";
+		}
+		else if(num == 45) {
+			return "Zayn and Liam are free to come out whenever they choose. True or false?";
+		}
+		else if(num == 46) {
+			return "The only real public relationship Zayn or Liam has had is the first time Liam and Danielle dated. True or false?";
+		}
+		else if(num == 47) {
+			return "There are no songs by One Direction (the band) that are about Ziam. True or false?";
+		}
+		else if(num == 48) {
+			return "Liam has been known to shout out Ziam/Zayn accounts. True or false?";
+		}
+		else if(num == 49) {
+			return "Zayn is very active in his current public relationship. True or false?";
+		}
+		else if(num == 50) {
+			return "Liam has referred to his current 'fiance' as his girlfriend. True or false?";
+		}
+		else {
+			return "Invalid number given.";
+		}
+	}
+	
+	public static String answer(int num, boolean ans) {
+		if(num % 2 == 1) {
+			if(ans) {
+				return "Incorrect.";
+			}
+			else {
+				correctAnswers = correctAnswers + 1;
+				return "Correct.";
+			}
+		}
+		else if(num % 2 == 0) {
+			if(ans) {
+				correctAnswers = correctAnswers + 1;
+				return "Correct.";
+			}
+			else {
+				return "Incorrect.";
+			}
+		}
+		else {
+			return "Error.";
+		}
+	}
+	public static void main(String[] args) {
+		System.out.println("Welcome to the Ziam Trivia Game!");
+		System.out.println();
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter 10 numbers between 1 and 50: ");
+		int one = in.nextInt();
+		int two = in.nextInt();
+		int three = in.nextInt();
+		int four = in.nextInt();
+		int five = in.nextInt();
+		int six = in.nextInt();
+		int seven = in.nextInt();
+		int eight = in.nextInt();
+		int nine = in.nextInt();
+		int ten = in.nextInt();
+		System.out.println();
+		System.out.println("1) " + question(one));
+		boolean oneAnswer = in.nextBoolean();
+		System.out.println(answer(one, oneAnswer));
+		System.out.println();
+		System.out.println("2) " + question(two));
+		boolean twoAnswer = in.nextBoolean();
+		System.out.println(answer(two, twoAnswer));
+		System.out.println();
+		System.out.println("3) " + question(three));
+		boolean threeAnswer = in.nextBoolean();
+		System.out.println(answer(three, threeAnswer));
+		System.out.println();
+		System.out.println("4) " + question(four));
+		boolean fourAnswer = in.nextBoolean();
+		System.out.println(answer(four, fourAnswer));
+		System.out.println();
+		System.out.println("5) " + question(five));
+		boolean fiveAnswer = in.nextBoolean();
+		System.out.println(answer(five, fiveAnswer));
+		System.out.println();
+		System.out.println("6) " + question(six));
+		boolean sixAnswer = in.nextBoolean();
+		System.out.println(answer(six, sixAnswer));
+		System.out.println();
+		System.out.println("7) " + question(seven));
+		boolean sevenAnswer = in.nextBoolean();
+		System.out.println(answer(seven, sevenAnswer));
+		System.out.println();
+		System.out.println("8) " + question(eight));
+		boolean eightAnswer = in.nextBoolean();
+		System.out.println(answer(eight, eightAnswer));
+		System.out.println();
+		System.out.println("9) " + question(nine));
+		boolean nineAnswer = in.nextBoolean();
+		System.out.println(answer(nine, nineAnswer));
+		System.out.println();
+		System.out.println("10) " + question(ten));
+		boolean tenAnswer = in.nextBoolean();
+		System.out.println(answer(ten, tenAnswer));
+		System.out.println();
+		System.out.println("Amount of answers correct: " + correctAnswers + "/10");
+		System.out.println("Thanks for playing!");
+		in.close();
+	}
+}
